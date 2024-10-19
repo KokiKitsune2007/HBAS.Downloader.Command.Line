@@ -10,11 +10,6 @@ parser = argparse.ArgumentParser(prog='HBAS-Downloader-CLI', description='Downlo
 parser.add_argument('-p', '--platform', type=str, required=True, help="The console you use")
 parser.add_argument('-d', '--download', type=str, required=True, help="Downloads the app (make sure to input it with .zip at the end)")
 
-subparser = parser.add_subparsers()
-# WiiuLoad Command Line functions
-wiiuLoad = subparser.add_parser('wiiuload')
-wiiuLoad.add_argument('-c', '--configure', action="store", help="Connect to the Wii U via ip")
-
 args = parser.parse_args()
 # Download functions
 def wii_u_download(url):
