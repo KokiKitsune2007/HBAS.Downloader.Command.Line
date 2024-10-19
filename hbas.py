@@ -21,7 +21,6 @@ def wii_u_download(url):
         with zipfile.ZipFile(wiiu_file_path, 'r') as wiiu_ex:
             wiiu_ex.extractall(directory)
         print("Successfully downloaded your app!")
-        os.remove(wiiu_file_path)
 
 def nx_download(url):
     directory = input("Enter a directory name (This includes drive letters as well)")
