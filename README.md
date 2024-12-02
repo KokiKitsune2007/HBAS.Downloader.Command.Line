@@ -1,3 +1,6 @@
+# 12/1/2024
+I am currently working on a better version of this application.  This repository will possibly be archived or it will still be worked on.
+
 # HBAS.Downloader.Command.Line
 A python command line for The Homebrew App Store
 
